@@ -1,0 +1,67 @@
+name: quick_lingo
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 0.0.1+7
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # state management
+  flutter_bloc: ^8.1.6
+
+  # dependency injection
+  get_it: ^7.7.0
+
+  # shared preferences
+  shared_preferences: ^2.3.1
+
+  # api services
+  retrofit: '>=4.0.0 <5.0.0'
+  dio: ^5.6.0
+  pretty_dio_logger: ^1.4.0
+  json_annotation: ^4.9.0
+
+  # cache image network
+  cached_network_image: ^3.4.1
+
+  # localizations
+  easy_localization: ^3.0.7
+
+  # routes
+  go_router: ^14.2.3
+
+  equatable: ^2.0.5
+
+  flutter_dotenv: ^5.1.0
+  package_info_plus: ^8.0.2
+  firebase_core: ^2.24.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+  json_serializable: ^6.8.0
+  retrofit_generator: '>=7.0.0 <8.0.0'
+  mockito: ^5.4.0
+  go_router_builder: any
+  build_runner: any
+  build_verify: any
+
+flutter:
+
+  uses-material-design: true
+
+
+  assets:
+    - .env
+    - assets/translations/
+

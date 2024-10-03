@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "347994417259",
+    "project_id": "quicklingo-11d57",
+    "storage_bucket": "quicklingo-11d57.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347994417259:android:9b4ab1f1f0e373fa77292e",
+        "android_client_info": {
+          "package_name": "com.november.quick_lingo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZPlVfX_XXWVwkaVYo-RvnecDAVGiezL8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
